@@ -42,7 +42,7 @@ public class Paciente {
             this.telefono = datos.telefono();
 
         if (datos.direccion() != null)
-            this.direccion = direccion.actualizarDatosPaciente(datos.direccion());
+            this.direccion.actualizarDireccion(datos.direccion());
     }
 
     public void eliminar() {

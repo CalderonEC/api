@@ -33,11 +33,11 @@ public class Direccion {
         return this;
     }
 
-    public Direccion actualizarDatosPaciente(DatosDireccion direccion) {
+    public Direccion actualizarDireccion(DatosDireccion direccion) {
         this.calle = direccion.calle();
         this.numero = direccion.numero();
-        this.complemento = direccion.complemento();
         this.distrito = direccion.distrito();
+        this.complemento = direccion.complemento();
         this.ciudad = direccion.ciudad();
         return this;
     }
